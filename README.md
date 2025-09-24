@@ -3,8 +3,10 @@
 <H3> Experiment 1</H3>
 <H3>DATE:</H3>
 <H1 ALIGN=CENTER> Implementation of Bayesian Networks</H1>
+
 ## Aim :
-    To create a bayesian Network for the given dataset in Python
+    To create a bayesian Network for the given dataset in Python.
+    
 ## Algorithm:
 Step 1:Import necessary libraries: pandas, networkx, matplotlib.pyplot, Bbn, Edge, EdgeType, BbnNode, Variable, EvidenceBuilder, InferenceController<br/>
 Step 2:Set pandas options to display more columns<br/>
@@ -28,7 +30,7 @@ pip install pybbn
 import pandas as pd # for data manipulation
 import networkx as nx # for drawing graphs
 import matplotlib.pyplot as plt # for drawing graphs
-# for creating Bayesian Belief Networks (BBN)
+#for creating Bayesian Belief Networks (BBN)
 from pybbn.graph.dag import Bbn
 from pybbn.graph.edge import Edge, EdgeType
 from pybbn.graph.jointree import EvidenceBuilder
