@@ -1,8 +1,8 @@
 <H3> Name: THARUN V K </H3>
-<H3>Register No: 212223230231</H3>
-<H3> Experiment 1</H3>
+<H3>Register Number: 212223230231</H3>
+<H3> EXPERIMENT 1</H3>
 <H3>DATE:</H3>
-<H1 ALIGN=CENTER> Implementation of Bayesian Networks</H1>
+<H1 ALIGN=CENTER> IMPLEMENTATION OF BAYESIAN NETWORKS</H1>
 
 ## Aim :
 To create a bayesian Network for the given dataset in Python.
