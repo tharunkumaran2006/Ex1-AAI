@@ -24,7 +24,7 @@ Step 13:Generate the graph using networkx<br/>
 Step 14:Update margins and display the graph using matplotlib.pyplot<br/>
 
 ## Program:
-'''python
+```python
 pip install pybbn
 
 import pandas as pd # for data manipulation
@@ -109,8 +109,7 @@ print("H9am ->",probs(df, child='Humidity9amCat'))
 print("H3pm ->",probs(df, child='Humidity3pmCat', parent1='Humidity9amCat'))
 print("W ->",probs(df, child='WindGustSpeedCat'))
 print("RT ->",probs(df, child='RainTomorrow', parent1='Humidity3pmCat', parent2='WindGustSpeedCat'))
-
-'''
+```
 ## Output:
 <img width="853" height="593" alt="image" src="https://github.com/user-attachments/assets/5e5659c1-4d94-47db-8dce-0d318f521791" />
 ## Result:
